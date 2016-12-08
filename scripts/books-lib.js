@@ -2,7 +2,7 @@
  * Created by ivan on 11/24/16.
  */
 function startApp() {
-    sessionStorage.clear();//This clears user authorization
+    sessionStorage.clear();//This clears user authorization on refresh
     showHideMenuLinks();
     showView('viewHome');
     //Bind the navigation menu links
@@ -147,8 +147,8 @@ function startApp() {
             success: registerUserSucces,
             error: handleAjaxError
         });
-        function registerUserSucces () {
-            saveAuthInSession();
+        function registerUserSucces (userInfo) {
+            saveAuthInSession(userInfo);
             showHideMenuLinks();
             listBooks();
             showInfo('User registration successful.');
@@ -179,7 +179,7 @@ function startApp() {
         $('#infoBox').show();
         setTimeout(function () {
             $('#infoBox').fadeOut();
-        }, 3000);
+        }, 2000);
     }
     function showError(errorMsg) {
         $('#errorBox').text("Error: " + errorMsg);
@@ -208,17 +208,6 @@ function startApp() {
             showInfo('Book created.');
         }
     }
-    // function appendBookRow(book, booksTable) {
-    //     let links = [];
-    //     if (book._acl.creator == sessionStorage['userId']) {
-    //         let deleteLink = $('<a href="#">[Delete]</a>')
-    //             .click(function () { deleteBook(book) });
-    //         let editLink = $('<a href="#">[Edit]</a>')
-    //             .click(function () { loadBookForEdit(book) });
-    //         links = [deleteLink, ' ', editLink];
-    //     }
-    //     booksTable.append($('<tr>').append(links));
-    // }
     function deleteBook(book) {
         $.ajax({
             method: "DELETE",
@@ -262,7 +251,7 @@ function startApp() {
         $.ajax({
             method: "PUT",
             url: kinveyBaseUrl + "appdata/" + kinveyAppKey + "/books/" + $('#formEditBook input[name=id]').val(),
-            headers: getKinveyUserAuthHeaders(),
+            headers: getKinveyUserAuthHeaders,
             data: bookData,
             success: editBookSuccess,
             error: handleAjaxError

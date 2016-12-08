@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76e3fba9-d249-4239-833e-b20105d9d98f" name="Default" comment="" />
+    <list default="true" id="76e3fba9-d249-4239-833e-b20105d9d98f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/books-lib.js" afterPath="$PROJECT_DIR$/scripts/books-lib.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,8 +23,8 @@
     <favorites_list name="BookLibrary" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
@@ -31,22 +34,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="books-lib.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="books-lib.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/books-lib.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="187" column="24" lean-forward="false" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
+            <state relative-caret-position="1624">
+              <caret line="209" column="5" lean-forward="false" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
               <folding>
+                <element signature="n#!!doc;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#showHideMenuLinks#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#showHomeView#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#showLoginView#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#showRegisterView#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#listBooks#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#getKinveyUserAuthHeaders#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#showCreateBookView#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#logoutUser#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#saveAuthInSession#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#handleAjaxError#0;n#!!block;n#startApp#0" expanded="false" />
                 <element signature="n#!!block;n#showInfo#0;n#!!block;n#startApp#0" expanded="false" />
-                <marker date="1480056193000" expanded="false" signature="0:39" ph="/** Created by ivan on 11/24/16. ...*/" />
+                <element signature="n#!!block;n#showError#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#createBook#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#deleteBook#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#loadBookForEdit#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#editBook#0;n#!!block;n#startApp#0" expanded="false" />
+                <element signature="n#!!block;n#loginUser#0;n#!!block;n#startApp#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -62,12 +89,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/styles/book-styles.css" />
-        <option value="$PROJECT_DIR$/scripts/books-lib.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scripts/books-lib.js" />
       </list>
     </option>
   </component>
@@ -85,7 +115,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
-    <option name="width" value="838" />
+    <option name="width" value="1676" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -104,7 +134,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,16 +156,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -146,6 +190,8 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -184,6 +230,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -218,32 +270,36 @@
       <option name="presentableId" value="Default" />
       <updated>1479970452862</updated>
       <workItem from="1479970454058" duration="18883000" />
+      <workItem from="1480337288989" duration="3539000" />
+      <workItem from="1480405037825" duration="955000" />
+      <workItem from="1480420598238" duration="13093000" />
+      <workItem from="1481220375105" duration="673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18883000" />
+    <option name="totallyTimeSpent" value="37143000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="0" width="838" height="1050" extended-state="0" />
+    <frame x="4" y="0" width="1676" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +315,154 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/books-lib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showHideMenuLinks#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showHomeView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showLoginView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showRegisterView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#listBooks#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#getKinveyUserAuthHeaders#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showCreateBookView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#logoutUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#saveAuthInSession#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#handleAjaxError#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showInfo#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showError#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#createBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#deleteBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loadBookForEdit#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#editBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loginUser#0;n#!!block;n#startApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/books-lib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showHideMenuLinks#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showHomeView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showLoginView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showRegisterView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#listBooks#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#getKinveyUserAuthHeaders#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showCreateBookView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#logoutUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#saveAuthInSession#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#handleAjaxError#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showInfo#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showError#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#createBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#deleteBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loadBookForEdit#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#editBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loginUser#0;n#!!block;n#startApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/books-lib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showHideMenuLinks#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showHomeView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showLoginView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showRegisterView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#listBooks#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#getKinveyUserAuthHeaders#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showCreateBookView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#logoutUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#saveAuthInSession#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#handleAjaxError#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showInfo#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showError#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#createBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#deleteBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loadBookForEdit#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#editBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loginUser#0;n#!!block;n#startApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/books-lib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3538">
+          <caret line="187" column="24" lean-forward="false" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showHideMenuLinks#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showHomeView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showLoginView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showRegisterView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#listBooks#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#getKinveyUserAuthHeaders#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showCreateBookView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#logoutUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#saveAuthInSession#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#handleAjaxError#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showInfo#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showError#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#createBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#deleteBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loadBookForEdit#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#editBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loginUser#0;n#!!block;n#startApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/jquery-3.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -271,25 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/books-lib.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="187" column="24" lean-forward="false" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!block;n#showHideMenuLinks#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#logoutUser#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0;n#!!block;n#startApp#0" expanded="false" />
-            <marker date="1480056193000" expanded="false" signature="0:39" ph="/** Created by ivan on 11/24/16. ...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -298,6 +483,46 @@
         <state relative-caret-position="203">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/books-lib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1624">
+          <caret line="209" column="5" lean-forward="false" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showHideMenuLinks#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showHomeView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showLoginView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showRegisterView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#listBooks#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#getKinveyUserAuthHeaders#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showCreateBookView#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#logoutUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#registerUser#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#saveAuthInSession#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#handleAjaxError#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showInfo#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#showError#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#createBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#deleteBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loadBookForEdit#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#editBook#0;n#!!block;n#startApp#0" expanded="false" />
+            <element signature="n#!!block;n#loginUser#0;n#!!block;n#startApp#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
